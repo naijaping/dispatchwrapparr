@@ -13,6 +13,8 @@
 ✅ **Proxy Support** — Full support for passing proxy servers to bypass geo restrictions. Also support for bypassing proxy for specific URL's used in initial redirections\
 ✅ **Extended Stream Type Detection** — Fallback option that checks MIME type of stream URL for streamlink plugin selection
 
+✅ **support #headers=origin&referer** — dispatchwrapper.py -i "http://example.com/stream.m3u8#headers=origin:https%3A%2F%2Fexample.com&referer:https%3A%2F%2Fexample.com" -ua "MyUserAgent"
+
 ---
 
 ## ⚙️ CLI Usage
