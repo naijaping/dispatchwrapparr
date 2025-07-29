@@ -11,8 +11,8 @@
 ✅ **Highly Flexible** — Can support standard HLS, Mpeg-DASH as well as DASH-DRM, Youtube, Twitch and other livestreaming services as channels\
 ✅ **Proxy Support** — Full support for passing proxy servers to bypass geo restrictions. Also support for bypassing proxy for specific URL's used in initial redirections\
 ✅ **Extended Stream Type Detection** — Fallback option that checks MIME type of stream URL for streamlink plugin selection
+✅ **support headers=origin&referer** — You can now add #headers at the end of URL
 
-✅ **support headers=origin&referer** — Allow the use of origin and referer 
 ---
 
 ## ⚙️ CLI Usage
