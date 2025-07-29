@@ -12,9 +12,7 @@
 ✅ **Highly Flexible** — Can support standard HLS, Mpeg-DASH as well as DASH-DRM, Youtube, Twitch and other livestreaming services as channels\
 ✅ **Proxy Support** — Full support for passing proxy servers to bypass geo restrictions. Also support for bypassing proxy for specific URL's used in initial redirections\
 ✅ **Extended Stream Type Detection** — Fallback option that checks MIME type of stream URL for streamlink plugin selection
-
-✅ **support #headers=origin&referer** — dispatchwrapper.py -i "http://example.com/stream.m3u8#headers=origin:https%3A%2F%2Fexample.com&referer:https%3A%2F%2Fexample.com" -ua "MyUserAgent"
-
+✅ **support headers=origin&referer** — Allow the use of origin and referer 
 ---
 
 ## ⚙️ CLI Usage
@@ -26,10 +24,8 @@
 - `-clearkeys <clearkey file or url>`: Optional: Supply a json file or URL containing json URL to clearkey mappings
 - `-loglevel <loglevel>`: Optional to change the default log level of "INFO". Supported options: "CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG", and "NOTSET".
 - `-subtitles`: Optional to enable muxing of subtitles. Disabled by default. NOTE: Subtitle support in streamlink is limited at best. May not work as intended.
-
 Example: `dispatchwrapparr.py -i {streamUrl} -ua {userAgent} [-proxy 'http://your.proxy.server:3128' -proxybypass '192.168.0.*,*.somesite.com' -clearkeys 'clearkeys.json' -loglevel 'INFO' -subtitles]`
-
----
+- `-headers`: Example dispatchwrapper.py -i "http://example.com/stream.m3u8#headers=origin:https%3A%2F%2Fexample.com&referer:https%3A%2F%2Fexample.com" -ua "MyUserAgent"---
 
 ## 🚀 Script Installation & Update
 
