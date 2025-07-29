@@ -25,10 +25,10 @@
 - `-loglevel <loglevel>`: Optional to change the default log level of "INFO". Supported options: "CRITICAL", "ERROR", "WARNING", "INFO", "DEBUG", and "NOTSET".
 - `-subtitles`: Optional to enable muxing of subtitles. Disabled by default. NOTE: Subtitle support in streamlink is limited at best. May not work as intended.
 Example: `dispatchwrapparr.py -i {streamUrl} -ua {userAgent} [-proxy 'http://your.proxy.server:3128' -proxybypass '192.168.0.*,*.somesite.com' -clearkeys 'clearkeys.json' -loglevel 'INFO' -subtitles]`
-- `#headers`: Example
+- `#headers`: Example`
 ```
 #EXTM3U
-#EXTINF:-1 group-title=" " channel-id="id.uk" tvg-id="id.uk" tvg-logo="", Channel Namehhh
+#EXTINF:-1 group-title=" " channel-id="id.uk" tvg-id="id.uk" tvg-logo="", Channel Name
 http://example.com/stream.m3u8#headers=origin:https://example.com&referer:https://example.com
 ```
 dispatchwrapper.py -i "http://example.com/stream.m3u8#headers=origin:https://example.com&referer:https://example.com" -ua "MyUserAgent"---
