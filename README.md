@@ -4,7 +4,6 @@
   <img src="https://github.com/user-attachments/assets/eb65168b-e24f-4e0c-b17b-7d72021d1d15" height="250" alt="Dispatchwrapparr Logo" />
 </p>
 
-
 ## 🤝 What does dispatchwrapparr do?
 
 ✅ **Builtin MPEG-DASH Clearkey/DRM Support** — Either append `#clearkey=<clearkey>` to the end of the URL or include a clearkeys json file or URL for DRM decryption\
